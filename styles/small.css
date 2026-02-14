@@ -1,0 +1,52 @@
+@media screen and (max-width: 768px) {
+    .hero h1 {
+        top: 30%;
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    .hamburger-nav {
+        display: block;
+    }
+    .nav-btn {
+        display: none;
+        flex-direction: column;
+    }
+    
+    .nav-btn.show {
+        display: block;
+    }
+    
+
+    /***********FOOTER*********/
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        gap: 1.5rem;
+        padding: 1.5rem 1rem;
+
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    footer .location,
+    footer .source {
+        text-align: center;
+    }
+
+    footer .logos {
+        justify-content: center;
+    }
+
+    footer .logos img {
+        width: 30px;
+        height: 30px;
+        padding: 8px;
+    }
+}
