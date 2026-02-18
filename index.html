@@ -18,6 +18,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    
 </head>
 
 <body>
@@ -25,7 +28,7 @@
         <div id="header-items">
             <img src="images/house-user.svg" alt="site logo" width="">
             <span>Surprise Homes</span>
-         <button id="hamburger-btn" class="hamburger-nav"></button>
+            <button id="hamburger-btn" class="hamburger-nav"></button>
         </div>
     </header>
     <nav>
@@ -36,11 +39,11 @@
                 <li><a href="property_details.html">Property Details</a></li>
                 <li><a href="add_property.html">Add Property</a></li>
                 <li><a href="contact.html">Contact</a></li>
-        
-        </ul>
+
+            </ul>
         </div>
-    </nav> 
-      
+    </nav>
+
     <main>
         <div class="hero">
             <h1>Welcome to your favourite Real Estate Marketplace hub, where desires and expectations are met with
@@ -81,7 +84,7 @@
             <p><span id="lastmodified"></span></p><br>
         </div>
     </footer>
-    <script src="scripts/main.js"></script>
+    <script src="scripts/main.js" type="module"></script>
 </body>
 
 </html>

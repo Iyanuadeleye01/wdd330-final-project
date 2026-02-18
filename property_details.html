@@ -18,6 +18,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
 </head>
 
 <body>
@@ -42,7 +45,7 @@
     </nav>
     <main>
         <section class="details-container">
-            <img id="property-image"/>
+            <img id="property-image" />
             <div class="details-info">
                 <h2 id="propertyTitle"></h2>
                 <p id="propertyPrice"></p>
@@ -51,10 +54,10 @@
                 <button id="favoriteBtn">Save to Favorites</button>
 
             </div>
-            
+
         </section>
         <div id="map"></div>
-        
+
     </main>
     <footer>
         <div class="location">
@@ -81,7 +84,7 @@
         </div>
 
     </footer>
-    <script src="scripts/main.js"></script>
+    <script src="scripts/main.js" type="module"></script>
 </body>
 
 </html>
