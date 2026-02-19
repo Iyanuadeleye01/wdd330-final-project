@@ -8,15 +8,52 @@
     .hamburger-nav {
         display: block;
     }
+
     .nav-btn {
         display: none;
         flex-direction: column;
     }
-    
+
     .nav-btn.show {
         display: block;
     }
-    
+
+    /*****Property grid****/
+    .property-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+
+    .filter-labels {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 0 10px;
+        width: 100%;
+    }
+
+    select,
+    input {
+        height: 40px;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    /* Detail Page */
+    .details-container {
+        grid-template-columns: 1fr;
+    }
+
+    .details-container img {
+        height: 250px;
+    }
+
 
     /***********FOOTER*********/
 

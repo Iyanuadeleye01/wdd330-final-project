@@ -38,40 +38,43 @@
                 <li><a href="properties.html">Available Properties</a></li>
                 <li><a href="property_details.html">Property Details</a></li>
                 <li><a href="add_property.html">Add Property</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                
 
             </ul>
         </div>
     </nav>
     <main>
         <section class="page-header">
-            <h1>Available Properties</h1>
+            <h2>Click a property title to see its location on the map......</h2>
         </section>
-        <section class="search-container">
-            <input type="text" id="search" placeholder="Search by title or location..." />
-        </section>
+        <div class="filter-labels">
+            <section class="search-container">
+                <input type="text" id="search" placeholder="Search by title or location..." />
+            </section>
+            <section class="filters">
+                <!-- Type Filter -->
+                <label for="typeFilter">Property Type:</label>
+                <select id="typeFilter">
+                    <option value="">All</option>
+                    <option value="rent">rent</option>
+                    <option value="sale">sale</option>
+                </select>
+
+                <!-- Price Filter -->
+                <label for="priceFilter">Price Range:</label>
+                <select id="priceFilter">
+                    <option value="">All</option>
+                    <option value="0-5000000">₦0 - ₦5,000,000</option>
+                    <option value="5000000-15000000">₦5,0000,000 - ₦15,000,000</option>
+                    <option value="15000000-50000000">₦15,000,000 - ₦500,000,000</option>
+                    <option value="500000000">₦500,000,000+</option>
+                </select>
+            </section>
+        </div>
+
 
         <section id="property-container" class="property-grid">
 
-        </section>
-        <section class="filters">
-            <!-- Type Filter -->
-            <label for="typeFilter">Property Type:</label>
-            <select id="typeFilter">
-                <option value="">All</option>
-                <option value="rent">rent</option>
-                <option value="sale">sale</option>
-            </select>
-
-            <!-- Price Filter -->
-            <label for="priceFilter">Price Range:</label>
-            <select id="priceFilter">
-                <option value="">All</option>
-                <option value="0-5000000">₦0 - ₦5,000,000</option>
-                <option value="5000000-15000000">₦5,0000,000 - ₦15,000,000</option>
-                <option value="15000000-50000000">₦15,000,000 - ₦500,000,000</option>
-                <option value="500000000">₦500,000,000+</option>
-            </select>
         </section>
 
     </main>
