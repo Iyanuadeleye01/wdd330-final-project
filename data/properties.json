@@ -228,7 +228,7 @@
     "availability": "available",
     "lat": 9.8965,
     "lng": 8.8583,
-    "image": "images/house5.webp",
+    "image": "../images/house5.webp",
     "description": "Cozy apartment in cool climate city."
   }
   
