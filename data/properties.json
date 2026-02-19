@@ -17,7 +17,7 @@
     "availability": "available",
     "lat": 6.4474,
     "lng": 3.4721,
-    "image": "../images/house6.webp",
+    "image": "images/house6.webp",
     "description": "Modern luxury duplex with fitted kitchen, swimming pool and security."
   },
   {
@@ -36,7 +36,7 @@
     "availability": "available",
     "lat": 6.5095,
     "lng": 3.3711,
-    "image": "../images/contemporary-5-bedroom-d3-1024x645.jpg.webp",
+    "image": "images/contemporary-5-bedroom-d3-1024x645.jpg.webp",
     "description": "Spacious apartment close to tech hubs and universities."
   },
  
@@ -56,7 +56,7 @@
     "availability": "available",
     "lat": 7.3775,
     "lng": 3.9470,
-    "image": "../images/house1.webp",
+    "image": "images/house1.webp",
     "description": "Affordable bungalow in a serene environment."
   },
   {
@@ -75,7 +75,7 @@
     "availability": "available",
     "lat": 6.4402,
     "lng": 7.4943,
-    "image": "../images/house2.webp",
+    "image": "images/house2.webp",
     "description": "Compact and affordable mini flat near city center."
   },
   {
@@ -94,7 +94,7 @@
     "availability": "available",
     "lat": 9.1152,
     "lng": 7.4033,
-    "image": "../images/hero_image.jpg",
+    "image": "images/hero_image.jpg",
     "description": "Well-built terrace house in secure estate."
   },
   {
@@ -113,7 +113,7 @@
     "availability": "available",
     "lat": 11.0855,
     "lng": 7.7199,
-    "image": "../images/hero_image3.jpg",
+    "image": "images/hero_image3.jpg",
     "description": "Affordable hostel room close to university."
   },
   {
@@ -132,7 +132,7 @@
     "availability": "available",
     "lat": 9.0563,
     "lng": 7.4951,
-    "image": "../images/hero_image4.jpg",
+    "image": "images/hero_image4.jpg",
     "description": "Luxury mansion with swimming pool and cinema room."
   },
   {
@@ -151,7 +151,7 @@
     "availability": "available",
     "lat": 5.1066,
     "lng": 7.3667,
-    "image": "../images/interior_rent1.jpg",
+    "image": "images/interior_rent1.jpg",
     "description": "Spacious flat in a peaceful neighborhood."
   },
   
@@ -171,7 +171,7 @@
     "availability": "available",
     "lat": 6.3350,
     "lng": 5.6037,
-    "image": "../images/interior_rent3.jpg",
+    "image": "images/interior_rent3.jpg",
     "description": "Modern apartment near city center."
   },
   {
@@ -190,7 +190,7 @@
     "availability": "available",
     "lat": 6.1500,
     "lng": 6.7833,
-    "image": "../images/house3.webp",
+    "image": "images/house3.webp",
     "description": "Large warehouse in commercial area."
   },
   {
@@ -209,7 +209,7 @@
     "availability": "available",
     "lat": 4.9757,
     "lng": 8.3417,
-    "image": "../images/house4.webp",
+    "image": "images/house4.webp",
     "description": "Beautiful villa with garden and modern interior."
   },
   {
@@ -228,7 +228,7 @@
     "availability": "available",
     "lat": 9.8965,
     "lng": 8.8583,
-    "image": "../images/house5.webp",
+    "image": "images/house5.webp",
     "description": "Cozy apartment in cool climate city."
   }
   
